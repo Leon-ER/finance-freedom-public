@@ -30,6 +30,8 @@ To provide individuals with a secure platform to:
 - 🎯 **Savings Goal Monitoring**
 - ☁️ **AWS S3 for Report Storage**
 - 🛡️ **Secure Secrets Handling via AWS Secrets Manager**
+- ⚡ **Redis Caching** for optimizing performance and reducing DB load
+- 🧱 **Rate Limiting with Bucket4j** to protect sensitive endpoints (e.g. login, password reset) from abuse
 
 ---
 
@@ -47,8 +49,9 @@ To provide individuals with a secure platform to:
 |-------------|---------------------------------|
 | Backend     | Java 21, Spring Boot            |
 | Database    | PostgreSQL (AWS RDS)            |
+| Caching     | Redis                           |
 | Auth        | JWT, OAuth2, Refresh Tokens     |
-| Cloud       | AWS S3, Secrets Manager, Lambda |
+| Cloud       | AWS S3, Secrets Manager         |
 | DevOps      | Maven, GitHub Actions, CI/CD    |
 
 ---
@@ -91,12 +94,13 @@ finance_freedom_backend/
 - Maven
 - PostgreSQL (or AWS RDS instance)
 - AWS account for Secrets Manager + S3
+- Redis server 
 
 ### 🔧 Setup
 
 ```bash
-git clone https://github.com/Leon-ER/finance-freedom-public.git
-cd finance-freedom-public/finance_freedom_backend
+git clone https://github.com/Leon-ER/finance-freedom-backend.git
+cd finance_freedom_backend
 ./mvnw spring-boot:run
 ```
 
@@ -142,3 +146,8 @@ Used by the mail sender for verification and password reset emails.
 - [Plaid](https://plaid.com/)
 - [AWS](https://aws.amazon.com/)
 - [Lombok](https://projectlombok.org/)
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
