@@ -48,7 +48,7 @@
 		<java.jjwt.verion>0.12.6</java.jjwt.verion>
 		<java.jjwtImpl.verion>0.12.6</java.jjwtImpl.verion>
 		<java.jjwtJackson.verion>0.12.6</java.jjwtJackson.verion>
-		<java.hibernate.validation.version>9.0.0.Final</java.hibernate.validation.version>
+		<java.hibernate.validation.version>9.0.1.Final</java.hibernate.validation.version>
 		<java.bucket.core.version>8.10.1</java.bucket.core.version>
 		<java.starter.cache>3.5.0</java.starter.cache>
 		<java.starter.data.redis>3.5.0</java.starter.data.redis>
