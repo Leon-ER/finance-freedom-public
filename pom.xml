@@ -43,7 +43,7 @@
 		<aws.java.s3.version>2.31.59</aws.java.s3.version>
 		<java.gson.verion>2.13.1</java.gson.verion>
 		<java.jpa.version>3.5.0</java.jpa.version>
-		<java.lombok.verion>1.18.38</java.lombok.verion>
+		<java.lombok.verion>1.18.42</java.lombok.verion>
 		<java.validation.version>3.1.1</java.validation.version>
 		<java.jjwt.verion>0.12.6</java.jjwt.verion>
 		<java.jjwtImpl.verion>0.12.6</java.jjwtImpl.verion>
